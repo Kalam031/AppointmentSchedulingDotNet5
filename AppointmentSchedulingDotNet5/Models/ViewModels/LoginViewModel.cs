@@ -10,7 +10,7 @@ namespace AppointmentSchedulingDotNet5.Models.ViewModels
     {
         [Required]
         [EmailAddress]
-        public string Èmail { get; set; }
+        public string Email { get; set; }
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }

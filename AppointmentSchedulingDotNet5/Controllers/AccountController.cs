@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace AppointmentSchedulingDotNet5.Controllers
 {
-    public class AccoutController : Controller
+    public class AccountController : Controller
     {
         private readonly ApplicationDbContext _db;
 
-        public AccoutController(ApplicationDbContext db)
+        public AccountController(ApplicationDbContext db)
         {
             _db = db;
         }
-        public IActionResult Index()
+
+        public IActionResult Login()
         {
             return View();
         }
