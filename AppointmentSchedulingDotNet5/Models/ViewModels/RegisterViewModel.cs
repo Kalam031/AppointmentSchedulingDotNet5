@@ -9,7 +9,7 @@ namespace AppointmentSchedulingDotNet5.Models.ViewModels
     public class RegisterViewModel
     {
         [Required]
-        public string Name { get; set; 
+        public string Name { get; set; }
 
         [Required]
         [EmailAddress]
@@ -26,7 +26,7 @@ namespace AppointmentSchedulingDotNet5.Models.ViewModels
         public string ConfirmPassword { get; set; }
 
         [Required]
-        [Display(Name="Roll Name")]
+        [Display(Name="Role Name")]
         public string RollName { get; set; }
     }
 }
