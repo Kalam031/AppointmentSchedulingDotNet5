@@ -14,12 +14,12 @@ namespace AppointmentSchedulingDotNet5.Helper
 
         public static List<SelectListItem> GetRolesForDropdown()
         {
-            return new List<SelectListItem
+            return new List<SelectListItem>
             {
                 new SelectListItem{Value="Admin", Text=Helper.Admin},
                 new SelectListItem{Value="Patient", Text=Helper.Patient},
                 new SelectListItem{Value="Doctor", Text=Helper.Doctor}
-            }
+            };
         }
     }
 }
